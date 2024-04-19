@@ -1,5 +1,5 @@
 ---
-title: experiment-report
+title: 实验报告
 date: 2024-04-19 22:34:39
 tags: [ 实验报告 ]
 ---
