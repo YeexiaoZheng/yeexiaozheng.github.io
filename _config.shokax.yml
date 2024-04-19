@@ -1,3 +1,5 @@
+alternate: ZYX's Blog # 站点大标题
+
 statics: "/" # 静态文件根目录，可用于 CDN 加速
 assets: "assets" # 图片资源存放目录
 css: "css" # css 存放目录 (不建议改动)
@@ -18,11 +20,9 @@ homeConfig:
   fixedCover: "" # 主页面cover(为空则使用bing随机图片)
 
 menu:
-  home: / || home
-  submenu:
-    default: /page/ || user
-    link: /page1/ || cloud
-  link2: /page2/ || coffee
+  # 主页: /home/ || home
+  分类: /categories/ || coffee
+  关于: /about/ || cloud
 
 social:
   github: https://github.com/YeexiaoZheng || github || "#191717"
