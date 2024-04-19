@@ -20,9 +20,10 @@ homeConfig:
   fixedCover: "" # 主页面cover(为空则使用bing随机图片)
 
 menu:
-  # 主页: /home/ || home
+  # home: /home/ || home
   分类: /categories/ || coffee
-  关于: /about/ || cloud
+  标签: /tags/ || cloud
+  关于: /about/ || user
 
 social:
   github: https://github.com/YeexiaoZheng || github || "#191717"
@@ -32,7 +33,7 @@ social:
   # music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
   # weibo: https://weibo.com/yourname || weibo || "#ea716e"
   # about: https://about.me/yourname || address-card || "#3b5998"
-  # email: mailto:foo@xxx.com || envelope || "#55acd5"
+  email: yxzheng@stu.ecnu.edu.cn || envelope || "#55acd5"
   # facebook: https://www.facebook.com/yourname || facebook
   # stackoverflow: https://stackoverflow.com/ || stack-overflow
   # youtube: https://youtube.com/yourname || youtube
@@ -65,6 +66,10 @@ performance:
     - "https://cdn.jsdelivr.net"
     - "https://unpkg.com"
 
+# icon:
+#   favicon: "/favicon.ico"
+#   apple_touch_icon: "/apple-touch-icon.png"
+
 seo:
   bing:
   google:
@@ -78,3 +83,18 @@ visitor:
 
 auto_scroll: false
 
+# auto dark mode
+darkmode: true
+auto_dark: # 自动亮/暗模式
+  enable: true #是否开启
+  start: 20 #开始时间
+  end: 7 #结束时间
+
+# TagCloud settings for tags page.
+tagcloud:
+  # All values below are same as default, change them by yourself.
+  min: 16 # Minimun font size in px
+  max: 22 # Maxium font size in px
+  start: "#72cecf" # Start color (hex, rgba, hsla or color keywords)
+  end: "#ffbac3" # End color (hex, rgba, hsla or color keywords)
+  amount: 200 # Amount of tags, change it if you have more than 200 tags
